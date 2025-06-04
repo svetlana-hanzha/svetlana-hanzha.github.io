@@ -806,8 +806,8 @@ template {
 .skills__wrapper {
     margin-top: 60px;
     display: grid;
-    grid-template: repeat(2, minmax(160px, auto))/repeat(4, 270px);
-    grid-auto-rows: minmax(160px, auto);
+    grid-template: repeat(2, minmax(100px, auto))/repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
     gap: 13px
 }
 
@@ -1006,11 +1006,6 @@ template {
         column-gap: 80px
     }
 
-    .skills__wrapper {
-        margin-top: 40px;
-        grid-template: repeat(3, minmax(160px, auto))/repeat(2, 1fr)
-    }
-
     .skills__ratings {
         margin-top: 100px;
         grid-template: repeat(2, minmax(70px, auto))/repeat(2, 450px);
@@ -1064,6 +1059,11 @@ template {
 
     .skills {
         padding-top: 100px
+    }
+
+    .skills__wrapper {
+        margin-top: 40px;
+        grid-template: repeat(3, minmax(160px, auto))/repeat(2, 1fr)
     }
 
     .skills__ratings {
