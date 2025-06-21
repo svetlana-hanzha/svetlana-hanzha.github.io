@@ -372,8 +372,9 @@ template {
 }
 
 .promo__title {
-    width: 535px;
-    margin-top: 10px
+    width: 600px;
+    margin-top: 80px;
+    margin-bottom: 80px
 }
 
 .promo__subtitle {
@@ -653,7 +654,7 @@ template {
 }
 
 .about__descr .divider {
-    margin: 10px 0
+    margin: 10px 0 30px 0
 }
 
 .about__descr ul {
@@ -1038,6 +1039,12 @@ template {
         max-width: 720px
     }
 
+    .promo__title {
+        width: 500px;
+        margin-top: 50px;
+        margin-bottom: 50px
+    }
+
     .about__wrapper {
         grid-template-columns: 340px 340px;
         -moz-column-gap: 30px;
@@ -1094,10 +1101,13 @@ template {
     }
 
     .promo__title {
-        line-height: 37px;
-        width: 300px;
-        margin-top: 20px
+        line-height: 25px;
+        width: 450px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        font-size: 18px;
     }
+
 
     .about {
         padding-top: 40px
@@ -1176,10 +1186,11 @@ template {
     }
 
     .promo__title {
-        width: 290px;
-        font-size: 24px;
-        line-height: 28px;
-        margin-top: 30px
+        width: 326px;
+        font-size: 18px;
+        line-height: 20px;
+        margin-top: 80px;
+        margin-bottom: 80px
     }
 
     .about__wrapper {
@@ -1222,5 +1233,11 @@ template {
 
     .contacts__phone {
         font-size: 18px
+    }
+}
+
+@media (max-width:375px) {
+    .promo__title {
+        width: 290px;
     }
 }
