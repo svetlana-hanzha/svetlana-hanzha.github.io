@@ -696,14 +696,16 @@ template {
 .resume__wrapper {
     padding: 60px 65px 0 65px;
     display: grid;
-    grid-template-columns: repeat(2, 425px);
-    -moz-column-gap: 135px;
-    column-gap: 135px
+    grid-template-columns: 1fr
 }
 
 .resume__column-title {
     position: relative;
     padding-left: 35px
+}
+
+.resume__expir {
+    margin-top: 60px
 }
 
 .resume__column-title:before {
@@ -1001,12 +1003,6 @@ template {
         column-gap: 40px
     }
 
-    .resume__wrapper {
-        grid-template-columns: repeat(2, 400px);
-        -moz-column-gap: 80px;
-        column-gap: 80px
-    }
-
     .skills__ratings {
         margin-top: 100px;
         grid-template: repeat(2, minmax(70px, auto))/repeat(2, 450px);
@@ -1058,10 +1054,7 @@ template {
     }
 
     .resume__wrapper {
-        padding: 10px;
-        grid-template-columns: repeat(2, 320px);
-        -moz-column-gap: 70px;
-        column-gap: 70px
+        padding: 10px
     }
 
     .skills {
@@ -1126,7 +1119,7 @@ template {
     }
 
     .resume__wrapper {
-        grid-template-columns: 1fr
+        padding-top: 0
     }
 
     .resume__column-title {
@@ -1203,7 +1196,7 @@ template {
         padding-top: 40px
     }
 
-    .resume__column-title {
+    .resume__educ {
         margin-top: 20px
     }
 
