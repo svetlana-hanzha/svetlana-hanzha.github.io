@@ -971,7 +971,7 @@ template {
     margin-bottom: 25px
 }
 
-.contacts__email,
+.contacts__linkedin,
 .contacts__phone {
     color: #000;
     font-size: 20px;
@@ -980,7 +980,7 @@ template {
     margin-top: 5px
 }
 
-.contacts__email:hover,
+.contacts__linkedin:hover,
 .contacts__phone:hover {
     color: #000;
     text-decoration: none
